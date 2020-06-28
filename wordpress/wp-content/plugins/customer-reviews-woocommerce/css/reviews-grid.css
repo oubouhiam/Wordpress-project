@@ -1,0 +1,576 @@
+.ivole-reviews-grid {
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	border-radius: 5px;
+	margin: 0;
+	width: 100%;
+}
+
+.cr-reviews-slider{
+	padding: 15px 0px;
+	opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+}
+
+.cr-reviews-slider.slick-initialized {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ivole-reviews-grid .ivole-review-card {
+	flex: 0 0 320px;
+	padding: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: inherit;
+	width: 300px;
+	margin: 5px;
+	max-width: 100%;
+}
+
+.cr-reviews-slider .ivole-review-card {
+	padding: 0px 10px;
+}
+
+.cr-reviews-slider .ivole-review-card .cr-review-card-inner {
+	margin: 0 auto;
+	padding: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: inherit;
+}
+
+.ivole-reviews-grid .breaker {
+	display: block;
+	margin: 5px 0px;
+	height: 0px;
+	width: 100%;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row,
+.cr-reviews-slider .ivole-review-card .top-row {
+	display: flex;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .rating,
+.cr-reviews-slider .ivole-review-card .top-row .rating {
+	flex: 0 0 50%;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .rating .crstar-rating,
+.cr-reviews-slider .ivole-review-card .top-row .rating .crstar-rating {
+	color: #6bba70;
+	font-size: 1em;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer,
+.cr-reviews-slider .ivole-review-card .top-row .reviewer {
+	flex: 0 0 50%;
+	text-align: right;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .rating .datetime,
+.cr-reviews-slider .ivole-review-card .top-row .rating .datetime {
+	font-size: 0.9em;
+	color: #676767;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer .reviewer-name,
+.cr-reviews-slider .ivole-review-card .top-row .reviewer .reviewer-name {
+	line-height: 1;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer .reviewer-name .ivole-grid-country-icon,
+.cr-reviews-slider .ivole-review-card .top-row .reviewer .reviewer-name .ivole-grid-country-icon {
+	height: 0.8em;
+	display: inline;
+	vertical-align: middle;
+	margin: 0 0 0 5px;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer .reviewer-verified,
+.cr-reviews-slider .ivole-review-card .top-row .reviewer .reviewer-verified {
+	font-size: 0.9em;
+	color: #676767;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row,
+.cr-reviews-slider .ivole-review-card .middle-row {
+	display: flex;
+	margin-top: 20px;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-thumbnail,
+.cr-reviews-slider .ivole-review-card .middle-row .review-thumbnail {
+	flex-basis: 60px;
+	flex-shrink: 0;
+	margin-right: 15px;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-thumbnail img,
+.cr-reviews-slider .ivole-review-card .middle-row .review-thumbnail img{
+	max-width: 60px;
+	max-height: 60px;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-content,
+.cr-reviews-slider .ivole-review-card .middle-row .review-content {
+	flex-grow: 1;
+	line-height: 1.1;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-content .review-text p,
+.cr-reviews-slider .ivole-review-card .middle-row .review-text p {
+	margin: 0;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-content .review-text.cr-no-avatar p,
+.cr-reviews-slider .ivole-review-card .middle-row .review-text.cr-no-avatar p {
+	text-align: center;
+}
+
+.ivole-reviews-grid .ivole-review-card .verified-review-row,
+.cr-reviews-slider .ivole-review-card .verified-review-row {
+	margin-top: 20px;
+	text-align: right;
+}
+
+.ivole-reviews-grid .ivole-review-card .verified-review-row p.ivole-verified-badge,
+.cr-reviews-slider .ivole-review-card .verified-review-row p.ivole-verified-badge {
+	margin: 0px;
+}
+
+.ivole-reviews-grid .ivole-review-card .verified-review-row .verified-badge-empty,
+.cr-reviews-slider .ivole-review-card .verified-review-row .verified-badge-empty {
+	min-height: 20px;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product,
+.cr-reviews-slider .ivole-review-card .review-product {
+	border-radius: inherit;
+	display: flex;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product .product-thumbnail,
+.cr-reviews-slider .ivole-review-card .review-product .product-thumbnail {
+	flex: 0 0 20%;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product .product-thumbnail img,
+.cr-reviews-slider .ivole-review-card .review-product .product-thumbnail img {
+	width: 50px;
+	height: 50px;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product .product-title,
+.cr-reviews-slider .ivole-review-card .review-product .product-title {
+	flex: 0 0 80%;
+	margin: auto;
+	padding-left: 10px;
+}
+
+p.ivole-verified-badge {
+	font-size: 12px;
+	vertical-align:middle;
+}
+
+span.ivole-verified-badge-text {
+	vertical-align:middle;
+}
+
+.woocommerce #content div.product #reviews .comment img.ivole-verified-badge-icon,
+.woocommerce div.product #reviews .comment img.ivole-verified-badge-icon,
+.woocommerce-page #content div.product #reviews .comment img.ivole-verified-badge-icon,
+.woocommerce-page div.product #reviews .comment img.ivole-verified-badge-icon,
+p.ivole-verified-badge img.ivole-verified-badge-icon,
+img.ivole-verified-badge-icon {
+	float: none;
+	height: 20px;
+	vertical-align:middle;
+	margin: 0px 5px 0px 0px;
+	display: inline;
+}
+
+.woocommerce #content div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+.woocommerce div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+.woocommerce-page #content div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+.woocommerce-page div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+p.ivole-verified-badge img.ivole-verified-badge-ext-icon,
+img.ivole-verified-badge-ext-icon {
+	float: none;
+	height: 11px;
+	width: 11px;
+	vertical-align:middle;
+	margin: 0px 0px 0px 5px;
+	display: inline;
+  }
+.ivole-reviews-grid .ivole-review-card .crstar-rating,
+.cr-reviews-slider .ivole-review-card .crstar-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: crstar;
+		letter-spacing: normal;
+}
+
+.ivole-reviews-grid .ivole-review-card .crstar-rating::before,
+.cr-reviews-slider .ivole-review-card .crstar-rating::before {
+    content: '\73\73\73\73\73';
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+		font-size: 1em;
+}
+
+.ivole-reviews-grid .ivole-review-card .crstar-rating span,
+.cr-reviews-slider .ivole-review-card .crstar-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+		font-size: 1em;
+}
+
+.ivole-reviews-grid .ivole-review-card .crstar-rating span::before,
+.cr-reviews-slider .ivole-review-card .crstar-rating span::before {
+    content: '\53\53\53\53\53';
+    top: 0;
+    position: absolute;
+    left: 0
+}
+
+/* Slider */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/slick.eot');
+    src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../fonts/slick.svg#slick') format('svg');
+}
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.cr-reviews-slider .slick-prev,
+.cr-reviews-slider .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.cr-reviews-slider .slick-prev:hover,
+.cr-reviews-slider .slick-prev:focus,
+.cr-reviews-slider .slick-next:hover,
+.cr-reviews-slider .slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.cr-reviews-slider .slick-prev:hover:before,
+.cr-reviews-slider .slick-prev:focus:before,
+.cr-reviews-slider .slick-next:hover:before,
+.cr-reviews-slider .slick-next:focus:before
+{
+    opacity: 1;
+}
+.cr-reviews-slider .slick-prev.slick-disabled:before,
+.cr-reviews-slider .slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.cr-reviews-slider .slick-prev:before,
+.cr-reviews-slider .slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+		color:grey;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cr-reviews-slider .slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .cr-reviews-slider .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.cr-reviews-slider .slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .cr-reviews-slider .slick-prev:before
+{
+    content: '→';
+}
+
+.cr-reviews-slider .slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .cr-reviews-slider .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.cr-reviews-slider .slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .cr-reviews-slider .slick-next:before
+{
+    content: '←';
+}
+
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.cr-reviews-slider .slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.cr-reviews-slider .slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.cr-reviews-slider .slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.cr-reviews-slider .slick-dots li button:hover,
+.cr-reviews-slider .slick-dots li button:focus
+{
+    outline: none;
+}
+.cr-reviews-slider .slick-dots li button:hover:before,
+.cr-reviews-slider .slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.cr-reviews-slider .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.cr-reviews-slider .slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}

@@ -1,0 +1,1897 @@
+# Translation of Plugins - Customer Reviews for WooCommerce - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Customer Reviews for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-05 15:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 2.2\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Customer Reviews for WooCommerce - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: class-ivole-settings-review-reminder.php:114
+msgid "Korean"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:125
+msgid "Turkish"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:113
+msgid "Japanese"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:78
+#: class-ivole-settings-review-reminder.php:83
+#: class-ivole-settings-review-reminder.php:88
+#: class-ivole-settings-review-reminder.php:590
+#: class-ivole-settings-review-reminder.php:591
+#: class-ivole-settings-review-reminder.php:592
+msgid "Checking license..."
+msgstr ""
+
+#: ivole.php:164
+msgid "Enable automatic review reminders"
+msgstr ""
+
+#: ivole.php:163
+msgid "Hide this message (but don't enable automatic review reminders)"
+msgstr ""
+
+#: ivole.php:161
+msgid "It looks like this site has moved or is a duplicate site. %1$sCustomer Reviews for WooCommerce%2$s has disabled sending automatic review reminder emails on this site to prevent duplicate reminders from a staging or test environment."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:202
+msgid "If reminders are enabled only for specific user roles, this field enables you to choose these roles."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:200
+msgid "Roles"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:196
+msgid "Specific Roles"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:195
+msgid "All Roles"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:188
+msgid "Define if reminders will be send for all or only specific roles of users."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:186
+msgid "Enable for Roles"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:112
+msgid ""
+"Disable lightboxes for images attached to reviews (not recommended).\n"
+"Use this option only if your theme generates lightboxes for any picture on the website\n"
+"and this leads to two lightboxes shown after clicking on an image attached to a review."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:111
+msgid "Disable Lightbox"
+msgstr ""
+
+#: class-ivole-manual.php:108
+msgid "Error: the order was placed by a customer who doesn't have a role for which review reminders are enabled."
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:117
+msgid "Search Reviews"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:104
+msgid "This review is already marked as spam."
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:101
+msgid "View Trash"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:101
+msgid "This review is already in the Trash."
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:98
+#: templates/all-reviews-admin-page.php:104
+msgid "Edit Review"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:98
+msgid "This review is already approved."
+msgstr ""
+
+#. translators: %s: number of comments permanently deleted
+#: templates/all-reviews-admin-page.php:92
+msgid "%s reviews deleted"
+msgid_plural "%s reviews deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: number of comments restored from the Trash
+#: templates/all-reviews-admin-page.php:87
+msgid "%s review restored from the Trash"
+msgid_plural "%s reviews restored from the Trash"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: number of comments moved to the Trash
+#: templates/all-reviews-admin-page.php:82
+msgid "%s review moved to the Trash."
+msgid_plural "%s reviews moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: number of comments restored from the spam
+#: templates/all-reviews-admin-page.php:76
+msgid "%s review restored from the spam"
+msgid_plural "%s reviews restored from the spam"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: templates/all-reviews-admin-page.php:71
+#: templates/all-reviews-admin-page.php:82
+msgid "Undo"
+msgstr ""
+
+#. translators: %s: number of comments marked as spam
+#: templates/all-reviews-admin-page.php:71
+msgid "%s review marked as spam."
+msgid_plural "%s reviews marked as spam."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: number of comments approved
+#: templates/all-reviews-admin-page.php:65
+msgid "%s review approved"
+msgid_plural "%s reviews approved"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: templates/all-reviews-admin-page.php:44
+msgid "Sorry, you are not allowed to edit reviews for this product."
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:41
+msgid "Invalid Review ID."
+msgstr ""
+
+#. translators: %s: search keywords
+#: templates/all-reviews-admin-page.php:25
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:15
+msgid "All Reviews"
+msgstr ""
+
+#. translators: %s: link to post
+#: templates/all-reviews-admin-page.php:7
+msgid "Reviews for &#8220;%s&#8221;"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:971
+msgid "No pending comments"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:948
+msgid "No approved comments"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:925
+#: class-ivole-reviews-list-table.php:948
+#: class-ivole-reviews-list-table.php:971
+msgid "No comments"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:920
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:919
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:918
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:768
+msgid "g:i a"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:767
+msgid "Y/m/d"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:766
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:625
+msgid "via CR"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:607
+msgid "In reply to %s"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:590
+msgid "Select review"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:579
+msgid "Show more details"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:553
+msgid "Edit"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:553
+msgid "Edit this review"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:549
+msgctxt "verb"
+msgid "Trash"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:549
+msgid "Move this review to the Trash"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:547
+msgid "Delete this review permanently"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:543
+msgid "Restore this review from the Trash"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:539
+msgid "Restore this review from the spam"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:537
+msgctxt "verb"
+msgid "Spam"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:537
+msgid "Mark this review as spam"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:529
+#: class-ivole-reviews-list-table.php:532
+msgid "Approve this review"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:527
+#: class-ivole-reviews-list-table.php:533
+msgid "Unapprove this review"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:372
+msgid "Submitted On"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:365
+msgid "Customer"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:325
+msgid "Empty Trash"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:325
+msgid "Empty Spam"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:292
+msgid "Move to Trash"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:290
+#: class-ivole-reviews-list-table.php:547
+msgid "Delete Permanently"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:286
+#: class-ivole-reviews-list-table.php:539
+msgctxt "comment"
+msgid "Not Spam"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:284
+#: class-ivole-reviews-list-table.php:543
+msgid "Restore"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:281
+msgctxt "comment"
+msgid "Mark as Spam"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:279
+#: class-ivole-reviews-list-table.php:529
+#: class-ivole-reviews-list-table.php:532
+msgid "Approve"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:277
+#: class-ivole-reviews-list-table.php:527
+#: class-ivole-reviews-list-table.php:533
+msgid "Unapprove"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:217
+msgctxt "comments"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:211
+msgctxt "comments"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:205
+msgctxt "comments"
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:199
+msgctxt "comments"
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:193
+msgctxt "comments"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:177
+msgid "No comments found."
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:175
+msgid "No comments awaiting moderation."
+msgstr ""
+
+#: class-ivole-email.php:282
+msgid "Item 2 Test"
+msgstr ""
+
+#: class-ivole-email.php:280
+msgid "Item 1 Test"
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:239
+msgid "A name and price list of the products purchased."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:119
+msgid "Your settings have been saved."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:103
+msgid "Save changes"
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:66
+#: class-ivole-admin-menu-settings.php:67
+msgid "Settings"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:60
+msgid "A utility to import reviews from a CSV file. Use it in three steps. Start with downloading the template for entry of reviews. Enter reviews to be imported in the template and save it. Make sure to provide valid product IDs that exist on your WooCommerce site. Finally, upload the template and run import."
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:37 class-ivole-admin-menu-import.php:38
+msgid "Import"
+msgstr ""
+
+#: wp-background-process.php:423
+msgid "Every %d Minutes"
+msgstr ""
+
+#. translators: %d: interval
+#: class-wc-background-process.php:172
+msgid "Every %d minutes"
+msgstr ""
+
+#: class-ivole-admin-import.php:168
+msgid "The CSV file contains no reviews"
+msgstr ""
+
+#: class-ivole-admin-import.php:155
+msgid "The CSV file contains invalid or missing column headings, please refer to the template in step 1"
+msgstr ""
+
+#: class-ivole-admin-import.php:147
+msgid "Cannot read CSV file"
+msgstr ""
+
+#: class-ivole-admin-import.php:64
+msgid "The uploaded file is not a valid CSV file"
+msgstr ""
+
+#: class-ivole-admin-import.php:50
+msgid "No file was uploaded"
+msgstr ""
+
+#: class-ivole-admin-import.php:38
+msgid "Permission denied"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:157
+msgid "Sample Customer"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:153
+msgid "This product is not so great."
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:149
+msgid "Example Customer"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:145
+msgid "This product is great!"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:132
+msgid "Failed to download template: invalid nonce. <a href=\"%s\">Return to settings</a>"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:305
+msgid "%d error(s)"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:304
+msgid "%d duplicate review(s) skipped"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:303
+msgid "%d review(s) successfully uploaded"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:302
+msgid "Cancelled: %s"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:301
+msgid "Finished: %s"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:300
+msgid "Started: %s"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:299
+msgid "Upload Failed"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:298
+msgid "Upload Cancelled"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:296
+msgid "Cancelling"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:294
+msgid "Import is in progress (%s/%s completed)"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:293
+msgid "Upload progress: %s%"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:118
+msgid "New Upload"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:111
+msgid "Upload Completed"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:107 class-ivole-admin-menu-import.php:297
+msgid "Cancel"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:104
+msgid "Import is in progress"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:88
+msgid "Maximum size: %s"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:84
+msgid "Choose File"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:77 class-ivole-admin-menu-import.php:295
+msgid "No file selected"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:74
+msgid "Step 3: Upload template with your reviews"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:70
+msgid "Step 2: Enter reviews into the template"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:65
+msgid "Download"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:63
+msgid "Step 1: Download template"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:59
+msgid "Import Reviews from CSV File"
+msgstr ""
+
+#: class-ivole-settings-premium.php:139
+msgid "Unauthorized"
+msgstr ""
+
+#: class-ivole-settings-premium.php:129
+msgid "Shop logo removed"
+msgstr ""
+
+#: class-ivole-settings-premium.php:129
+msgid "Shop logo updated"
+msgstr ""
+
+#: class-ivole-settings-premium.php:197 class-ivole-settings-premium.php:199
+msgid "Remove logo"
+msgstr ""
+
+#: class-ivole-admin-menu-import.php:95 class-ivole-settings-premium.php:181
+#: class-ivole-settings-premium.php:183
+msgid "Upload"
+msgstr ""
+
+#: class-ivole-settings-premium.php:104
+msgid "Upload your shop logo"
+msgstr ""
+
+#: class-ivole-settings-premium.php:102
+msgid "Upload Logo"
+msgstr ""
+
+#: class-ivole-settings-premium.php:98
+msgid "Upload a logo of your shop. The logo will be added to email templates, review forms, and (if enabled) pages with verified reviews generated by the plugin. This feature requires the premium version."
+msgstr ""
+
+#: class-ivole-settings-premium.php:96
+msgid "Shop Logo"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:224
+msgid "By default, plugin sends review reminders to billing emails provided by customers during checkout. If you enable this option, the plugin will check if customers have accounts on your website and will send review reminders to email addresses associated with their accounts. It is recommended to keep this option disabled."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:223
+msgid "Registered Customers"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:144
+msgid "Settings for WooCommerce Customer Reviews plugin. Configure WooCommerce to send automatic follow-up emails (reminders) that gather product reviews. Before enabling this plugin you MUST update your terms and conditions and make sure that your customers consent to receive an invitation to review their order. By enabling and using this plugin, you agree to <a href=\"https://www.cusrev.com/terms.html\" target=\"_blank\">terms and conditions</a>."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:137
+msgid "WPML Automatic"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:136
+msgid "It looks like you have WPML plugin activated. You might want to choose \"WPML Automatic\" option to enable automate selection of language."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:124
+msgid "Thai"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:665 class-ivole-reviews.php:166
+msgid "Video #%1$d from "
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:658 class-ivole-reviews.php:160
+msgid "Uploaded video(s):"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:396
+msgid "Attach Media (Beta)"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:367
+msgid "Adjust template of the aggregated review form that will be sent to customers. Modifications will be applied to the next review form created after saving settings."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:148
+msgid "Displays whether or not WooCommerce Lightbox library is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:147
+msgid "WC Lightbox:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:139
+msgid "Displays whether or not WooCommerce Zoom library is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:138
+msgid "WC Zoom:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:130
+msgid "Displays whether or not WooCommerce Slider library is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:129
+msgid "WC Slider:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:125
+msgid "The plugin will not be able to receive reviews because REST API is disabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:121
+msgid "Displays whether or not WP REST API is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:120
+msgid "WP REST API:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:111
+msgid "Displays whether or not WP Cron Jobs are enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:110
+msgid "WP Cron:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:106
+msgid "The version of cURL library installed on your site."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:105
+msgid "cURL Version:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:101
+msgid "The version of WooCommerce installed on your site."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:100
+msgid "WC Version:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:96
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:95
+msgid "WP Version:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:37
+msgid "Diagnostic report about parameters of your website configuration that are important for Customer Reviews plugin. If there are any errors or warnings below, the plugin might not work properly."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:35
+#: class-ivole-admin-menu-diagnostics.php:41
+msgid "Diagnostics Information"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:55
+#: class-ivole-admin-menu-diagnostics.php:56
+msgid "Diagnostics"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:102
+msgid "Specify the maximum size (in MB) of an image that can be uploaded with a review. This setting applies only to reviews submitted on single product pages."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:94
+msgid "Specify the maximum number of images that can be uploaded for a single review. This setting applies only to reviews submitted on single product pages."
+msgstr ""
+
+#: class-ivole-manual.php:106
+msgid "Error: the order does not contain any products from product categories for which review reminders are enabled."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:101
+msgid "Chinese"
+msgstr ""
+
+#: class-ivole-verified-reviews.php:128
+msgid "Verified badges deactivation error #99."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:125
+msgid "Verified badges have been successfully deactivated."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:119
+msgid "Verified badges deactivation error #98. Please try again."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:94
+msgid "Verified badges activation error #99."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:90
+msgid "Verified badges activation error: page name contains unsupported symbols."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:87
+msgid "Verified badges activation error: '%s' is already in use. Please enter a different page name."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:84
+msgid "Verified badges have been successfully activated."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:52
+msgid "Verified badges activation error: 'Verified Reviews Page' cannot be empty."
+msgstr ""
+
+#: class-ivole-reviews.php:821
+msgid "view original"
+msgstr ""
+
+#: class-ivole-reviews.php:818
+msgid "Verified review"
+msgstr ""
+
+#: class-ivole-all-reviews.php:207
+msgid "&raquo;"
+msgstr ""
+
+#: class-ivole-all-reviews.php:206
+msgid "&laquo;"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:115
+msgid "Norwegian"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:183
+msgid "Specify name of the page with verified reviews. This will be a base URL for reviews related to your shop. You can use alphanumeric symbols and '.' in the name of the page."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:182
+msgid "Verified Reviews Page"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:175
+msgid "Verified Badges"
+msgstr ""
+
+#: class-ivole-reviews.php:73
+msgid "Upload up to %d images for your review (GIF, PNG, JPG, JPEG):"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:100
+msgid "Bulgarian"
+msgstr ""
+
+#: class-ivole-manual.php:104
+msgid "Error: maximum number of reminders per order is limited to one."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:217
+msgid "Enable this checkbox to make sure that no more than one review reminder is sent for each order."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:216
+msgid "Limit Number of Reminders"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:116
+msgid "Polish"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:101
+msgid "Maximum Size of Image"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:93
+msgid "Quantity of Images"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:106
+msgid "Estonian"
+msgstr ""
+
+#: templates/review-compat.php:43
+msgid "verified owner"
+msgstr ""
+
+#: templates/review-compat.php:34
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: templates/review-compat.php:27
+msgid "out of 5"
+msgstr ""
+
+#: templates/review-compat.php:26
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: class-ivole-all-reviews.php:247 class-ivole-reviews.php:281
+msgid "An error occurred with submission of your feedback. Please report it to the website administrator."
+msgstr "حدث خطأ في إرسال تعليقاتك. يرجى الإبلاغ عنها إلى مسؤول الموقع."
+
+#: class-ivole-all-reviews.php:246 class-ivole-reviews.php:280
+msgid "An error occurred with submission of your feedback. Please refresh the page and try again."
+msgstr "حدث خطأ في إرسال تعليقاتك. يرجى تحديث الصفحة وحاول مرة أخرى."
+
+#: class-ivole-all-reviews.php:245 class-ivole-reviews.php:279
+msgid "Thank you for your feedback!"
+msgstr "شكرا لك على ملاحظاتك!"
+
+#: class-ivole-all-reviews.php:244 class-ivole-reviews.php:278
+msgid "Processing..."
+msgstr "جاري المعالجة…"
+
+#: class-ivole-reviews.php:260
+msgid "No"
+msgstr "لا"
+
+#: class-ivole-reviews.php:249
+msgid "Yes"
+msgstr "نعم"
+
+#: class-ivole-reviews.php:235
+msgid "%d out of %d people found this helpful. Was this review helpful to you?"
+msgstr "‫%dمن %d أشخاص وجدوا هذا التعليق مفيداً. ‫هل كان هذا التقييم مفيد بالنسبة لك"
+
+#: class-ivole-reviews.php:233
+msgid "Was this review helpful to you?"
+msgstr "هل كان هذا التقييم مفيد بالنسبة لك؟"
+
+#: class-ivole-admin.php:179
+msgid "<strong>Customer Reviews for WooCommerce</strong> plugin has been updated. This update adds a new feature that enables visitors to vote for reviews. If you would like to try this feature, you should enable it in the <a href=\"%s\">plugin settings</a>."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:192
+msgid "Enable people to upvote or downvote reviews. The plugin allows one vote per review per person. If the person is a guest, the plugin uses cookies and IP addresses to identify this visitor."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:191
+msgid "Vote for Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:119
+msgid "Russian"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:199
+msgid "Enable this option to remove plugin's branding (\"Powered by Customer Reviews Plugin\") from the reviews summary bar."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:198
+msgid "Remove Plugin's Branding"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/ivole"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ivole"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Customer Reviews for WooCommerce plugin helps you get more customer reviews for your shop by sending automated reminders and coupons."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/customer-reviews-woocommerce/"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Customer Reviews for WooCommerce"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:141
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:132
+msgid "Your review"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:128
+msgid "Very poor"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:127
+msgid "Not that bad"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:126
+msgid "Average"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:125
+msgid "Good"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:124
+msgid "Perfect"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:123
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:122
+msgid "Your rating"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:111
+#: templates/ivole-single-product-reviews.php:116
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:103
+msgid "Submit"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:100
+msgid "Email"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:98
+msgid "Name"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:93
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:92
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:92
+msgid "Add a review"
+msgstr ""
+
+#: templates/ivole-single-product-reviews.php:79
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: templates/ivole-single-product-reviews.php:36
+#: templates/ivole-single-product-reviews.php:43
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-reviews-list-table.php:366 templates/email_items.php:15
+#: templates/email_items.php:28 templates/email_items.php:36
+#: templates/email_items.php:76
+msgid "Review"
+msgstr ""
+
+#: templates/email_items.php:14
+msgid "Price"
+msgstr ""
+
+#: templates/email_items.php:13
+msgid "Quantity"
+msgstr ""
+
+#: class-ivole-reviews-list-table.php:369 templates/email_items.php:12
+msgid "Product"
+msgstr ""
+
+#: ivole.php:93
+msgid "Unsubscribe"
+msgstr ""
+
+#: ivole.php:89
+msgid "Email Address:"
+msgstr ""
+
+#: ivole.php:81
+msgid "Go to home page"
+msgstr ""
+
+#: ivole.php:79
+msgid "Error: please provide a valid email address!"
+msgstr ""
+
+#: ivole.php:74 ivole.php:76
+msgid "Success: you have unsubscribed from emails related to reviews!"
+msgstr ""
+
+#: class-ivole-all-reviews.php:379 class-ivole-reviews.php:430
+msgid "See all %d review"
+msgid_plural "See all %d reviews"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-all-reviews.php:378 class-ivole-reviews.php:429
+msgid "Showing %1$d of %2$d review (%3$d star). "
+msgid_plural "Showing %1$d of %2$d reviews (%3$d star). "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-ivole-all-reviews.php:361 class-ivole-reviews.php:408
+#: class-ivole-reviews.php:412
+msgid "1 star"
+msgstr "1 نجمة"
+
+#: class-ivole-all-reviews.php:354 class-ivole-reviews.php:397
+#: class-ivole-reviews.php:401
+msgid "2 star"
+msgstr "2 نجمة"
+
+#: class-ivole-all-reviews.php:347 class-ivole-reviews.php:386
+#: class-ivole-reviews.php:390
+msgid "3 star"
+msgstr "3 نجمات"
+
+#: class-ivole-all-reviews.php:340 class-ivole-reviews.php:375
+#: class-ivole-reviews.php:379
+msgid "4 star"
+msgstr "4 نجمات"
+
+#: class-ivole-all-reviews.php:333 class-ivole-reviews.php:364
+#: class-ivole-reviews.php:368
+msgid "5 star"
+msgstr "5 نجمات"
+
+#: class-ivole-reviews.php:301
+msgid "Add Review Error"
+msgstr ""
+
+#: class-ivole-reviews.php:301
+msgid "reCAPTCHA vertification failed and your review cannot be saved."
+msgstr ""
+
+#: class-ivole-all-reviews.php:154 class-ivole-all-reviews.php:173
+#: class-ivole-reviews-list-table.php:649
+#: class-ivole-reviews-list-table.php:690 class-ivole-reviews.php:153
+#: class-ivole-reviews.php:187 class-ivole-structured-data.php:29
+msgid "Image #%1$d from "
+msgstr ""
+
+#: class-ivole-all-reviews.php:149 class-ivole-all-reviews.php:165
+#: class-ivole-reviews-list-table.php:643
+#: class-ivole-reviews-list-table.php:680 class-ivole-reviews.php:148
+#: class-ivole-reviews.php:179
+msgid "Uploaded image(s):"
+msgstr ""
+
+#: class-ivole-reviews.php:107
+msgid "Error: Uploaded file is too large. <br/> Go back to: "
+msgstr ""
+
+#: class-ivole-manual.php:139
+msgid "An automatic reminder is scheduled for "
+msgstr ""
+
+#: class-ivole-manual.php:87
+msgid "No reminders sent yet"
+msgstr ""
+
+#: class-ivole-manual.php:85 class-ivole-manual.php:128
+msgid " reminder(s) sent"
+msgstr ""
+
+#: class-ivole-manual.php:81 class-ivole-manual.php:130
+msgid "No reminders sent"
+msgstr ""
+
+#: class-ivole-manual.php:36
+msgid "Send review reminder now"
+msgstr ""
+
+#: class-ivole-license.php:94
+msgid "License registration error #99"
+msgstr ""
+
+#: class-ivole-license.php:88
+msgid "License has been successfully registered for '%s'."
+msgstr ""
+
+#: class-ivole-license.php:82 class-ivole-license.php:91
+msgid "License registration error: %s."
+msgstr ""
+
+#: class-ivole-license.php:56
+msgid "Unknown Error"
+msgstr ""
+
+#: class-ivole-license.php:52
+msgid "Expired"
+msgstr ""
+
+#: class-ivole-license.php:46
+msgid "Not Active: "
+msgstr ""
+
+#: class-ivole-license.php:40
+msgid "Unknown: "
+msgstr ""
+
+#: class-ivole-license.php:20
+msgid "No license key entered"
+msgstr ""
+
+#: class-ivole-email.php:40
+msgid "Please review your experience with products and services that you purchased at {site_title}."
+msgstr ""
+
+#: class-ivole-email.php:38
+msgid "Review Your Experience with Us"
+msgstr ""
+
+#: class-ivole-email.php:37 class-ivole-email.php:39
+msgid "How did we do?"
+msgstr ""
+
+#: class-ivole-email-coupon.php:186 class-ivole-email.php:275
+msgid "Jane Doe"
+msgstr ""
+
+#: class-ivole-email-coupon.php:185 class-ivole-email.php:274
+msgid "Jane"
+msgstr ""
+
+#: class-ivole-email-coupon.php:36
+msgid "Discount Coupon for You"
+msgstr ""
+
+#: class-ivole-email-coupon.php:35
+msgid "Thank You for Leaving a Review"
+msgstr ""
+
+#: class-ivole-settings-premium.php:43
+msgid "&#9733; Premium &#9733;"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:48
+msgid "Review Extensions"
+msgstr ""
+
+#: class-ivole-manual.php:114 class-ivole-settings-review-reminder.php:49
+msgid "Review Reminder"
+msgstr ""
+
+#: class-ivole-admin.php:167
+msgid "<strong>Customer Reviews for WooCommerce</strong> plugin has been updated. This is a big update that makes submission of reviews easier and quicker for your customers. It means that you will receive more customer reviews but first we recommend you to verify <a href=\"%s\">plugin settings</a> by sending several test emails to make sure that everything works fine."
+msgstr ""
+
+#: class-ivole-admin.php:155
+msgid "<strong>Customer Reviews for WooCommerce</strong> plugin has been activated. Please go to the plugin's <a href=\"%s\">settings</a> and configure this plugin to start receiving more authentic reviews!"
+msgstr ""
+
+#: class-ivole-license.php:48 class-ivole-settings-premium.php:221
+#: class-ivole-settings-review-extensions.php:362
+#: class-ivole-settings-review-reminder.php:557
+#: class-ivole-settings-review-reminder.php:596
+msgid "Active"
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:238
+msgid "The date that the order was made."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:237
+msgid "The order number for the purchase."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:233
+msgid "You can use the following variables in the email and the review form:"
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:202
+msgid "Select none"
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:201
+msgid "Select all"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:415
+msgid "Text color for product names."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:411
+msgid "Form Color 2"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:407
+msgid "Background color for heading of the form and product names."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:403
+msgid "Form Color 1"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:393
+msgid "Enable this option if you would like to make it mandatory for your customers to write something in their review."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:389
+msgid "Comment Required"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:382
+msgid "Body of the review form that will be sent to customers."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:380
+msgid "Form Body"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:373
+msgid "Header of the review form that will be sent to customers."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:371
+msgid "Form Header"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:365
+msgid "Review Form Template"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:339
+msgid "Footer of the email that will be sent to customers. Modification of this field is possible in premium version of the plugin."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:337
+msgid "Email Footer"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:294
+msgid "Choose one of the available languages."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:286
+#: class-ivole-settings-review-reminder.php:292
+msgid "Language"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:275
+msgid "Add a Reply-To address for emails with reminders. If customers decide to reply to automatic emails, their replies will be sent to this address."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:266
+msgid "Add a BCC recipient for emails with reminders. It can be useful to verify that emails are being sent properly."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:257
+msgid "Name that will be used together with From Address to send emails. Modification of this field is possible in premium version of the plugin."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:255
+msgid "From Name"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:248
+msgid "Emails will be sent from the email address specified in this field. Modification of this field is possible in premium version of the plugin."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:246
+msgid "From Address"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:239
+msgid "Specify your shop name that will be used in emails and review forms generated by this plugin."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:237
+msgid "Shop Name"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:231
+msgid "Enable manual moderation of reviews submitted by your verified customers. This setting applies only to reviews submitted in response to reminders sent by this plugin."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:230
+msgid "Moderation of Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:209
+msgid "Enable Manual Reminders"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:179
+msgid "If reminders are enabled only for specific categories of products, this field enables you to choose these categories."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:177
+msgid "Categories"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:173
+msgid "Specific Categories"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:172
+msgid "All Categories"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:165
+msgid "Define if reminders will be send for all or only specific categories of products."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:163
+msgid "Enable for"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:157
+msgid "Emails will be sent N days after order status is set to \"Completed\". N is a sending delay that needs to be defined in this field."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:155
+msgid "Sending Delay (Days)"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:149
+msgid "Enable automatic follow-up emails with a reminder to submit a review."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:148
+msgid "Enable Automatic Reminders"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:142
+msgid "Reminders for Customer Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:131
+msgid "qTranslate-X Automatic"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:130
+msgid "It looks like you have qTranslate-X plugin activated. You might want to choose \"qTranslate-X Automatic\" option to enable automatic selection of language."
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:123
+msgid "Swedish"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:122
+msgid "Spanish"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:121
+msgid "Slovenian"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:120
+msgid "Serbian"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:118
+msgid "Romanian"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:117
+msgid "Portuguese"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:112
+msgid "Italian"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:111
+msgid "Indonesian"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:110
+msgid "Hungarian"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:109
+msgid "German"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:108
+msgid "French"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:107
+msgid "Finnish"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:105
+msgid "English"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:104
+msgid "Dutch"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:103
+msgid "Danish"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:102
+msgid "Czech"
+msgstr ""
+
+#: class-ivole-settings-review-reminder.php:97
+msgid "Choose language that will be used for different elements of emails and review forms. If your language is not in the list, submit a translation by filling out <a href=\"https://goo.gl/forms/8D4poyIBRq2MtWEP2\" target=\"_blank\">this form</a>. Your translation will added with the next update of the plugin."
+msgstr ""
+
+#: class-ivole-settings-premium.php:85
+msgid "Enter your license key here."
+msgstr ""
+
+#: class-ivole-settings-premium.php:83
+msgid "License Key"
+msgstr ""
+
+#: class-ivole-settings-premium.php:76
+msgid "Information about license status."
+msgstr ""
+
+#: class-ivole-settings-premium.php:74
+msgid "License Status"
+msgstr ""
+
+#: class-ivole-settings-premium.php:70
+msgid "You can unlock premium features of the Customer Reviews plugin by purchasing a license key => <a href=\"https://www.cusrev.com/\" target=\"_blank\">Buy License Key</a>"
+msgstr ""
+
+#: class-ivole-settings-premium.php:68
+msgid "Customer Reviews Premium"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:169
+msgid "Enable display of a histogram table with a summary of reviews on a product page."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:168
+msgid "Reviews Summary Bar"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:147
+msgid "Reviews Shortcodes"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:140
+msgid "If you want to use reCAPTCHA V2, insert here Secret Key that you will receive after registration at reCAPTCHA website."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:138
+msgid "reCAPTCHA V2 Secret Key"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:131
+msgid "If you want to use reCAPTCHA V2, insert here Site Key that you will receive after registration at reCAPTCHA website."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:129
+msgid "reCAPTCHA V2 Site Key"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:123
+msgid "Enable reCAPTCHA to eliminate fake reviews. You must enter Site Key and Secret Key in the fields below if you want to use reCAPTCHA. You will receive Site Key and Secret Key after registration at reCAPTCHA website."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:122
+msgid "reCAPTCHA V2 for Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:86
+msgid "Attach Images"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:82
+msgid "Settings for WooCommerce Customer Reviews plugin. Configure various extensions for standard WooCommerce reviews."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:80
+msgid "Extensions for Customer Reviews"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:31 class-ivole-admin-menu-reviews.php:32
+#: templates/ivole-single-product-reviews.php:38
+#: templates/ivole-single-product-reviews.php:45
+msgid "Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:658
+msgid "Amount of the coupon (e.g., $10 or 11% depending on type of the coupon)."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:657
+msgid "The code of coupon for discount."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:236
+#: class-ivole-settings-review-discount.php:656
+msgid "The full name of the customer who purchased from your store."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:235
+#: class-ivole-settings-review-discount.php:655
+msgid "The first name of the customer who purchased from your store."
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:234
+#: class-ivole-settings-review-discount.php:654
+msgid "The title of your WordPress website."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:653
+msgid "You can use the following variables in the email:"
+msgstr ""
+
+#: class-ivole-admin-menu-settings.php:232
+#: class-ivole-settings-review-discount.php:652
+msgid "Variables"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:314
+#: class-ivole-settings-review-reminder.php:421
+msgid "Send a test email to this address. You must save changes before sending a test email."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:312
+#: class-ivole-settings-review-reminder.php:419
+msgid "Send Test"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:308
+#: class-ivole-settings-review-reminder.php:357
+msgid "Text color for heading of the email and review button."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:304
+#: class-ivole-settings-review-reminder.php:353
+msgid "Email Color 2"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:300
+#: class-ivole-settings-review-reminder.php:349
+msgid "Background color for heading of the email and review button."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:296
+#: class-ivole-settings-review-reminder.php:345
+msgid "Email Color 1"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:291
+#: class-ivole-settings-review-reminder.php:332
+msgid "Body of the email that will be sent to customers."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:289
+#: class-ivole-settings-review-reminder.php:330
+msgid "Email Body"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:282
+#: class-ivole-settings-review-reminder.php:323
+msgid "Heading of the email that will be sent to customers."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:280
+#: class-ivole-settings-review-reminder.php:321
+msgid "Email Heading"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:273
+#: class-ivole-settings-review-reminder.php:314
+msgid "Subject of the email that will be sent to customers."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:271
+#: class-ivole-settings-review-reminder.php:312
+msgid "Email Subject"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:267
+#: class-ivole-settings-review-reminder.php:308
+msgid "Adjust template of the email that will be sent to customers."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:265
+#: class-ivole-settings-review-reminder.php:306
+msgid "Email Template"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:249
+msgid "How many times this coupon can be used before it is void. Set it to 0 for unlimited usage."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:248
+msgid "Usage limit"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:240
+msgid "Product must not be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will not be discounted."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:238
+msgid "Exclude categories"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:231
+msgid "A product must be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will be discounted."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:229
+msgid "Product categories"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:224
+msgid "Products which must not be in the cart to use this coupon or, for \"Product Discounts\", which products are not discounted."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:223
+msgid "Exclude products"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:218
+#: class-ivole-settings-review-discount.php:225
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:217
+msgid "Products which need to be in the cart to use this coupon or, for \"Product Discounts\", which products are discounted."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:216
+msgid "Products"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:210
+msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are items in the cart that are not on sale."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:209
+msgid "Exclude sale items"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:203
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:202
+msgid "Individual use only"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:196
+msgid "This field allows you to set the maximum spend (subtotal, including taxes) allowed when using the coupon."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:195
+msgid "No maximum"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:194
+msgid "Maximum spend"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:188
+msgid "This field allows you to set the minimum spend (subtotal, including taxes) allowed to use the coupon."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:187
+msgid "No minimum"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:186
+msgid "Minimum spend"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:174
+msgid "Number of days during which the coupon will be valid from the moment of submission of a review or set to 0 for unlimited validity."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:172
+msgid "Validity"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:166
+msgid "Check this box if the coupon grants free shipping. A <a href=\"%s\" target=\"_blank\">free shipping method</a> must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:165
+msgid "Allow free shipping"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:159
+msgid "Value of the coupon."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:157
+msgid "Coupon amount"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:151
+msgid "Discount type"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:144
+msgid "Settings for automatic generation of unique coupons for each customer and order. When a customer submits a review, a new, unique discount code will be generated according to these settings and sent to the customer."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:142
+msgid "Generation of Individual Coupons"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:134
+msgid "This coupon code will be sent to customers who provide reviews."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:126
+msgid "Choose one the existing coupons to be sent to customers who provided reviews."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:124
+msgid "Existing Coupon to Use"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:113
+msgid "Add a Reply-To address for emails with discount coupons. If customers decide to reply to automatic emails, their replies will be sent to this address."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:111
+#: class-ivole-settings-review-reminder.php:273
+msgid "Reply-To Address"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:104
+msgid "Add a BCC recipient for emails with discount coupon. It can be useful to verify that emails are being sent properly."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:102
+#: class-ivole-settings-review-reminder.php:264
+msgid "BCC Address"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:97
+msgid "Generate a Unique Coupon"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:96
+#: class-ivole-settings-review-discount.php:132
+msgid "Existing Coupon"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:88
+msgid "Coupon to Use"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:82
+msgid "Enable generation of discount coupons for customers who provide reviews."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:81
+msgid "Enable Review for Discount"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:77
+msgid "Settings for WooCommerce Coupons sending for Review. By enabling and using this plugin, you agree to <a href=\"https://www.cusrev.com/terms.html\" target=\"_blank\">terms and conditions</a>."
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:57
+#: class-ivole-settings-review-discount.php:75
+msgid "Review for Discount"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:394
+msgid "Please select an existing coupon!"
+msgstr ""
+
+#: class-ivole-settings-review-discount.php:350
+msgid "Discounts for customers who provide reviews are enabled. Don’t forget to mention it in this email to increase the number of reviews.</span>"
+msgstr ""

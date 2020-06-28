@@ -1,0 +1,2 @@
+2020-06-09T05:09:29+00:00 CRITICAL require_once(): Failed opening required 'classes/class-wc-connect-extension-compatibility.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-services\woocommerce-services.php on line 37
+

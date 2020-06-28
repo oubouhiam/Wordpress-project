@@ -1,0 +1,362 @@
+p.iv-comment-image-text { margin-bottom: 0.5em; }
+p.iv-comment-video-text { margin-bottom: 0.5em; }
+div.iv-comment-image { width: 150px; float: left; margin-right: 5px; }
+div.iv-comment-video { width: 150px; float: left; margin-right: 5px; position: relative; }
+div.iv-comment-video video.ivole-video-a { max-width: 100%; height: auto; }
+div.iv-comment-video img.iv-comment-video-icon { position: absolute; top: 50%; left: 50%; width: 50px; margin-top: -25px; margin-left: -25px; }
+div.iv-comment-image img { box-shadow: none; max-width: 100%; max-height: 100%; }
+div.iv-comment-images { margin-bottom: 1.5em; }
+div.iv-comment-videos-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+div.iv-comment-video-modal { width: 50%; float: none; margin: auto; z-index: 1 }
+div.ivole-recaptcha { margin-bottom: 1.5em; }
+.comment-form p.ivole-upload-local-images { width: 100%; flex: none; }
+.ivole-meter {
+    overflow: hidden;
+    background: #f2f2f2;
+    background: -webkit-linear-gradient(top,#eee,#f6f6f6);
+    background: linear-gradient(to bottom,#eee,#f6f6f6);
+    background-color: #f3f3f3;
+    height: 22px;
+    border-radius: 1px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.4),inset 0 0 0 1px rgba(0,0,0,.1);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.ivole-meter .ivole-meter-bar {
+    border-radius: 1px;
+    background: #fb0;
+    background: -webkit-linear-gradient(top,#ffce00,#ffa700);
+    background: linear-gradient(to bottom,#ffce00,#ffa700);
+    background-color: #ffce00;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.25),inset 0 -1px 0 rgba(0,0,0,.05);
+    -webkit-transition: width .5s ease;
+    transition: width .5s ease;
+    float: left;
+    font-size: 0;
+    height: 100%;
+    width: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.ivole-meter .ivole-meter-bar:before {
+    background-color: rgba(255,255,255,.25);
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 1px;
+    margin: 1px
+}
+#ivole-histogramTable tr.ivole-histogramRow .ivole-histogramCell1 {
+  white-space: nowrap;
+  width: auto;
+}
+#ivole-histogramTable tr.ivole-histogramRow .ivole-histogramCell2 {
+  width: 70%;
+}
+#ivole-histogramTable tr.ivole-histogramRow .ivole-histogramCell3 {
+  text-align: right;
+  white-space: nowrap;
+  width: auto;
+}
+.ivole-summaryBox {
+  max-width: 320px;
+  font-size: 14px;
+}
+div.ivole-summaryBox {
+  margin-bottom: 2rem;
+}
+#ivole-histogramTable {
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  border: 0px;
+  width: 100%;
+}
+#ivole-histogramTable .ivole-histogramRow {
+  border: 0px;
+}
+#ivole-histogramTable tr.ivole-histogramRow td {
+  padding: 0.2rem 0.3rem;
+  vertical-align: middle;
+  border: 0px;
+}
+#ivole-histogramTable tr.ivole-histogramRow:first-child td {
+    padding-top: 0
+}
+#ivole-histogramTable tr.ivole-histogramRow:last-child td {
+    padding-bottom: 0
+}
+#ivole-histogramTable tr.ivole-histogramRow td:first-child {
+    padding-left: 0
+}
+#ivole-histogramTable tr.ivole-histogramRow td:last-child {
+    padding-right: 0
+}
+#ivole-histogramTable tr.ivole-histogramRow .ivole-credits {
+  font-size: 10px;
+  padding-top: 11px;
+  text-align: left;
+}
+#ivole-histogramTable tr.ivole-histogramRow a {
+  display: inline;
+}
+span.ivole-voting-cont {
+  display: block;
+  line-height: 20px;
+  font-size: 11px;
+  margin: 10px 0px;
+  color: #686868;
+}
+.ivole-vote-button {
+  width: 35px;
+}
+span.ivole-a-button-inner a.ivole-a-button-text, a.ivole-a-button-text:hover, a.ivole-a-button-text:focus {
+  display: block;
+  font-size: 11px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px 0 7px;
+  color: #111;
+  text-decoration: none;
+  box-shadow: none;
+  webkit-box-shadow: none;
+}
+span.ivole-a-button {
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #ADB1B8 #A2A6AC #8D9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none!important;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+span.ivole-a-button:hover {
+    border-color: #a2a6ac #979aa1 #82858a
+}
+span.ivole-a-button:focus, span.ivole-a-button-focus {
+    outline: 0;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5)
+}
+span.ivole-a-button-inner {
+  display: block;
+  height: 20px;
+  background: #eff1f3;
+  background: -webkit-linear-gradient(top,#f7f8fa,#e7e9ec);
+  background: linear-gradient(to bottom,#f7f8fa,#e7e9ec)
+}
+span.ivole-a-button:hover span.ivole-a-button-inner {
+    background: #e0e3e9;
+    background: -webkit-linear-gradient(top,#e7eaf0,#d9dce1);
+    background: linear-gradient(to bottom,#e7eaf0,#d9dce1);
+}
+div.ivole-vote-button-margin {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+span.ivobe-letter-space {
+  display: inline-block;
+  width: .385em
+}
+@font-face {
+    font-family: crstar;
+    src: url(../fonts/star.eot);
+    src: url(../fonts/star.eot?#iefix) format("embedded-opentype"),url(../fonts/star.woff) format("woff"),url(../fonts/star.ttf) format("truetype"),url(../fonts/star.svg#star) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+div.ivole-all-reviews-shortcode ol li.comment, div.ivole-all-reviews-shortcode ol li.review {
+  list-style: none;
+  margin-right: 0;
+  margin-bottom: 2.5em;
+  position: relative;
+  border: 0;
+}
+div.ivole-all-reviews-shortcode ol li.comment div.comment_container img.avatar, div.ivole-all-reviews-shortcode ol li.review div.comment_container img.avatar {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px;
+  width: 32px;
+  height: auto;
+  background: #ebe9eb;
+  border: 1px solid #e4e1e3;
+  margin: 0;
+  box-shadow: none;
+}
+div.ivole-all-reviews-shortcode ol li.comment div.comment_container img.avatar, div.ivole-all-reviews-shortcode ol li.review div.comment_container .meta {
+  color: #767676;
+  font-size: .75em;
+}
+div.ivole-all-reviews-shortcode ol li div.comment_container a.ivole-comment-a {
+  box-shadow: none;
+}
+div.ivole-all-reviews-shortcode ol li div.comment_container p.iv-comment-product {
+  font-size: 90%;
+}
+div.ivole-all-reviews-shortcode ol li div.comment_container a.iv-comment-product-a {
+  box-shadow: none;
+}
+div.ivole-all-reviews-shortcode ol li div.comment_container img.iv-comment-product-img {
+  width: 25px;
+  height: auto;
+  vertical-align: top;
+  margin-right: 5px;
+  display: inline;
+}
+div.ivole-all-reviews-shortcode ol.commentlist li .comment-text {
+  margin: 0 0 0 50px;
+  border: 1px solid #e4e1e3;
+  border-radius: 4px;
+  padding: 1em 1em 0;
+}
+div.ivole-all-reviews-shortcode ol.commentlist li .comment-text p {
+  margin: 0 0 1em;
+}
+div.ivole-all-reviews-shortcode ol.commentlist li .comment-text p.meta {
+  font-size: .83em;
+}
+div.ivole-all-reviews-shortcode ol.commentlist ul.children {
+    list-style: none outside;
+    margin: 20px 0 0 50px
+}
+div.ivole-all-reviews-shortcode .crstar-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: crstar;
+    color:#ffbc00;
+}
+div.ivole-all-reviews-shortcode .crstar-rating::before {
+    content: "\73\73\73\73\73";
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+div.ivole-all-reviews-shortcode .crstar-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em
+}
+div.ivole-all-reviews-shortcode .crstar-rating span::before {
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0
+}
+p.ivole-verified-badge {
+  font-size: 12px;
+  vertical-align:middle;
+}
+span.ivole-verified-badge-text {
+  vertical-align:middle;
+}
+
+p.ivole-verified-badge span.ivole-review-country-text, p.ivole-verified-badge span.ivole-review-country-space {
+  vertical-align:middle;
+}
+
+#ivole_all_reviews_shortcode p.ivole-verified-badge img.ivole-review-country-icon,
+#reviews p.ivole-verified-badge img.ivole-review-country-icon {
+	float: none;
+	height: 12px;
+	vertical-align:middle;
+	margin: 0px 5px 0px 0px;
+	display: inline;
+}
+.woocommerce #content div.product #reviews .comment img.ivole-verified-badge-icon,.woocommerce div.product #reviews .comment img.ivole-verified-badge-icon,.woocommerce-page #content div.product #reviews .comment img.ivole-verified-badge-icon,.woocommerce-page div.product #reviews .comment img.ivole-verified-badge-icon,p.ivole-verified-badge img.ivole-verified-badge-icon,img.ivole-verified-badge-icon {
+    float: none;
+    height: 20px;
+    vertical-align:middle;
+    margin: 0px 5px 0px 0px;
+    display: inline;
+}
+.woocommerce #content div.product #reviews .comment img.ivole-verified-badge-ext-icon,.woocommerce div.product #reviews .comment img.ivole-verified-badge-ext-icon,.woocommerce-page #content div.product #reviews .comment img.ivole-verified-badge-ext-icon,.woocommerce-page div.product #reviews .comment img.ivole-verified-badge-ext-icon,p.ivole-verified-badge .ivole-verified-badge-text img.ivole-verified-badge-ext-icon,img.ivole-verified-badge-ext-icon {
+    float: none;
+    height: 11px;
+    width: 11px;
+    vertical-align:middle;
+    margin: 0px 0px 0px 5px;
+    display: inline;
+}
+#ivole_trustbadgef_sl.ivole-trustbadgef-sl, #ivole_trustbadgef_sd.ivole-trustbadgef-sd,
+#ivole_trustbadgef_slp.ivole-trustbadgef-slp, #ivole_trustbadgef_sdp.ivole-trustbadgef-sdp,
+#ivole_trustbadgef_wl.ivole-trustbadgef-wl, #ivole_trustbadgef_wd.ivole-trustbadgef-wd,
+#ivole_trustbadgef_wlp.ivole-trustbadgef-wlp, #ivole_trustbadgef_wdp.ivole-trustbadgef-wdp {
+  text-align:center;
+  line-height: 0;
+}
+#ivole_trustbadgef_sl.ivole-trustbadgef-sl #ivole_trustbadgefi_sl.ivole-trustbadgefi-sl,
+#ivole_trustbadgef_slp.ivole-trustbadgef-slp #ivole_trustbadgefi_slp.ivole-trustbadgefi-slp,
+#ivole_trustbadgef_sd.ivole-trustbadgef-sd #ivole_trustbadgefi_sd.ivole-trustbadgefi-sd,
+#ivole_trustbadgef_sdp.ivole-trustbadgef-sdp #ivole_trustbadgefi_sdp.ivole-trustbadgefi-sdp {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  width:556px;
+  max-width:100%;
+}
+#ivole_trustbadgef_sl.ivole-trustbadgef-sl a,
+#ivole_trustbadgef_slp.ivole-trustbadgef-slp a,
+#ivole_trustbadgef_sd.ivole-trustbadgef-sd a,
+#ivole_trustbadgef_sdp.ivole-trustbadgef-sdp a {
+  font-size: 0;
+  text-decoration:none;
+}
+#ivole_trustbadgef_sl.ivole-trustbadgef-sl #ivole_trustbadgefi_sl.ivole-trustbadgefi-sl,
+#ivole_trustbadgef_slp.ivole-trustbadgef-slp #ivole_trustbadgefi_slp.ivole-trustbadgefi-slp {background-color: #FFFFFF;}
+#ivole_trustbadgef_sl.ivole-trustbadgef-sl #ivole_trustbadgefi_sl.ivole-trustbadgefi-sl.ivole-trustbadgefi-byes,
+#ivole_trustbadgef_slp.ivole-trustbadgef-slp #ivole_trustbadgefi_slp.ivole-trustbadgefi-slp.ivole-trustbadgefi-byes {border: 1px solid #A3D8CD;}
+#ivole_trustbadgef_sd.ivole-trustbadgef-sd #ivole_trustbadgefi_sd.ivole-trustbadgefi-sd,
+#ivole_trustbadgef_sdp.ivole-trustbadgef-sdp #ivole_trustbadgefi_sdp.ivole-trustbadgefi-sdp {background-color: #3D3D3D;}
+#ivole_trustbadgef_sd.ivole-trustbadgef-sd #ivole_trustbadgefi_sd.ivole-trustbadgefi-sd.ivole-trustbadgefi-byes,
+#ivole_trustbadgef_sdp.ivole-trustbadgef-sdp #ivole_trustbadgefi_sdp.ivole-trustbadgefi-sdp.ivole-trustbadgefi-byes {border: 1px solid #8B8B8B;}
+#ivole_trustbadgef_wl.ivole-trustbadgef-wl #ivole_trustbadgefi_wl.ivole-trustbadgefi-wl,
+#ivole_trustbadgef_wd.ivole-trustbadgef-wd #ivole_trustbadgefi_wd.ivole-trustbadgefi-wd {width:500px;display:inline-block;max-width:100%;}
+#ivole_trustbadgef_wlp.ivole-trustbadgef-wlp #ivole_trustbadgefi_wlp.ivole-trustbadgefi-wlp,
+#ivole_trustbadgef_wdp.ivole-trustbadgef-wdp #ivole_trustbadgefi_wdp.ivole-trustbadgefi-wdp {width:790px;display:inline-block;max-width:100%;}
+@media (max-width: 500px) {
+  #ivole_trustbadgef_wl.ivole-trustbadgef-wl #ivole_trustbadgefi_wl.ivole-trustbadgefi-wl,
+  #ivole_trustbadgef_wd.ivole-trustbadgef-wd #ivole_trustbadgefi_wd.ivole-trustbadgefi-wd,
+  #ivole_trustbadgef_wlp.ivole-trustbadgef-wlp #ivole_trustbadgefi_wlp.ivole-trustbadgefi-wlp,
+  #ivole_trustbadgef_wdp.ivole-trustbadgef-wdp #ivole_trustbadgefi_wdp.ivole-trustbadgefi-wdp {width:320px;}
+}
+#ivole_trustbadgef_wl.ivole-trustbadgef-wl #ivole_trustbadgefi_wl.ivole-trustbadgefi-wl,
+#ivole_trustbadgef_wlp.ivole-trustbadgef-wlp #ivole_trustbadgefi_wlp.ivole-trustbadgefi-wlp {background-color: #FFFFFF;}
+#ivole_trustbadgef_wd.ivole-trustbadgef-wd #ivole_trustbadgefi_wd.ivole-trustbadgefi-wd,
+#ivole_trustbadgef_wdp.ivole-trustbadgef-wdp #ivole_trustbadgefi_wdp.ivole-trustbadgefi-wdp {background-color: #003640;}
+#ivole_trustbadgef_wl.ivole-trustbadgef-wl a,
+#ivole_trustbadgef_wd.ivole-trustbadgef-wd a,
+#ivole_trustbadgef_wlp.ivole-trustbadgef-wlp a,
+#ivole_trustbadgef_wdp.ivole-trustbadgef-wdp a {
+  font-size: 0;
+  text-decoration:none;
+}
+.woocommerce #content div.product #reviews .comment-text p.ivf-custom-question-checkbox {font-weight: 550;margin: 0.6em 0;}
+.woocommerce #content div.product #reviews .comment-text ul.ivf-custom-question-ul {margin: 0.6em 0;}
+.woocommerce #content div.product #reviews .comment-text ul.ivf-custom-question-ul li {margin:0;}
+.woocommerce #content div.product #reviews .comment-text span.ivf-custom-question-radio {font-weight: 550;}
+.woocommerce #content div.product #reviews .comment-text hr.ivf-custom-question-hr {margin: 0.6em 0;}
+.woocommerce #content div.product #reviews .comment-text div.ivf-custom-question-rating-cont {margin: 0.6em 0;}
+.woocommerce #content div.product #reviews .comment-text p.ivf-custom-question-p {margin: 0.6em 0;}
+.woocommerce #content div.product #reviews .comment-text span.ivf-custom-question-rating { padding-right: 5px; font-weight: 550; vertical-align: middle; }
+.woocommerce #content div.product #reviews .comment-text span.ivf-star-rating span.dashicons { font-size: 15px; height: 15px; width: 15px; vertical-align: middle; }
+.checkbox input.cr-customer-consent-checkbox {margin-right:7px;}
